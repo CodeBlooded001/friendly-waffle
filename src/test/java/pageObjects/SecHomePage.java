@@ -27,9 +27,5 @@ public class SecHomePage extends TestBase {
     	link.click();
     	return new blogspotPage();
     }
-	
-	
-	
-
 
 }

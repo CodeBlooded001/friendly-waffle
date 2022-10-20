@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testPages.homePageTest">
+      <class name="Demo.prioritization">
         <methods>
-          <include name="verifying_HomePageTitle"/>
-          <include name="browserLaunch"/>
+          <include name="unprioritized"/>
+          <include name="CloseBrowser"/>
           <include name="tearDown"/>
-          <include name="verifyDisplay"/>
+          <include name="browserLaunch"/>
+          <include name="OpenBrowser"/>
         </methods>
-      </class> <!-- testPages.homePageTest -->
+      </class> <!-- Demo.prioritization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

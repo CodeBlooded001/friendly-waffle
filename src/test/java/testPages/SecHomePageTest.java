@@ -23,8 +23,9 @@ public class SecHomePageTest extends TestBase {
 		shPage = new SecHomePage();
 	}
 	@Test
-	public void clickLink() throws IOException {
+	public void clickLink() throws IOException, InterruptedException {
 		shPage.clickLink();
+		Thread.sleep(3000);
 	}
 	@AfterMethod
 	public void tearDown() {
