@@ -1,63 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-21T16:20:30 IST" name="test_suite" finished-at="2022-10-21T16:21:10 IST" duration-ms="40162">
+  <suite started-at="2022-10-27T15:29:01 IST" name="ANYTHING" finished-at="2022-10-27T15:29:12 IST" duration-ms="10409">
     <groups>
     </groups>
-    <test started-at="2022-10-21T16:20:30 IST" name="Car Loan" finished-at="2022-10-21T16:20:45 IST" duration-ms="15670">
-      <class name="Demo.loan.carLoan">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Demo.loan.carLoan@593aaf41]" started-at="2022-10-21T16:20:30 IST" name="setUp" finished-at="2022-10-21T16:20:42 IST" duration-ms="11861" status="PASS">
+    <test started-at="2022-10-27T15:29:01 IST" name="anything" finished-at="2022-10-27T15:29:12 IST" duration-ms="10409">
+      <class name="testPages.homePageTest">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:testPages.homePageTest@5a56cdac]" started-at="2022-10-27T15:29:01 IST" name="browserLaunch" finished-at="2022-10-27T15:29:08 IST" duration-ms="6658" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="carLoan1()[pri:0, instance:Demo.loan.carLoan@593aaf41]" started-at="2022-10-21T16:20:42 IST" name="carLoan1" finished-at="2022-10-21T16:20:42 IST" duration-ms="15" status="PASS">
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="verifyDisplay()[pri:0, instance:testPages.homePageTest@5a56cdac]" started-at="2022-10-27T15:29:08 IST" name="verifyDisplay" finished-at="2022-10-27T15:29:08 IST" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- carLoan1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.loan.carLoan@593aaf41]" started-at="2022-10-21T16:20:42 IST" name="tearDown" finished-at="2022-10-21T16:20:45 IST" duration-ms="3730" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Demo.loan.carLoan -->
-    </test> <!-- Car Loan -->
-    <test started-at="2022-10-21T16:20:46 IST" name="Personal Loan" finished-at="2022-10-21T16:20:59 IST" duration-ms="13418">
-      <class name="Demo.loan.personalLoan">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Demo.loan.personalLoan@3e27aa33]" started-at="2022-10-21T16:20:46 IST" name="setUp" finished-at="2022-10-21T16:20:55 IST" duration-ms="9894" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="personalLoan1()[pri:0, instance:Demo.loan.personalLoan@3e27aa33]" started-at="2022-10-21T16:20:55 IST" name="personalLoan1" finished-at="2022-10-21T16:20:55 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- personalLoan1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.loan.personalLoan@3e27aa33]" started-at="2022-10-21T16:20:55 IST" name="tearDown" finished-at="2022-10-21T16:20:59 IST" duration-ms="3505" status="PASS">
+        </test-method> <!-- verifyDisplay -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPages.homePageTest@5a56cdac]" started-at="2022-10-27T15:29:08 IST" name="tearDown" finished-at="2022-10-27T15:29:08 IST" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Demo.loan.personalLoan -->
-    </test> <!-- Personal Loan -->
-    <test started-at="2022-10-21T16:20:59 IST" name="Home Loan" finished-at="2022-10-21T16:21:10 IST" duration-ms="11033">
-      <class name="Demo.loan.personalLoan">
-        <test-method is-config="true" signature="before_suit()[pri:0, instance:Demo.loan.personalLoan@3e27aa33]" started-at="2022-10-21T16:20:30 IST" name="before_suit" finished-at="2022-10-21T16:20:30 IST" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:testPages.homePageTest@5a56cdac]" started-at="2022-10-27T15:29:08 IST" name="browserLaunch" finished-at="2022-10-27T15:29:12 IST" duration-ms="3252" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- before_suit -->
-      </class> <!-- Demo.loan.personalLoan -->
-      <class name="Demo.loan.homeLoan">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Demo.loan.homeLoan@740cae06]" started-at="2022-10-21T16:20:59 IST" name="setUp" finished-at="2022-10-21T16:21:06 IST" duration-ms="7290" status="PASS">
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="verifying_HomePageTitle()[pri:0, instance:testPages.homePageTest@5a56cdac]" started-at="2022-10-27T15:29:12 IST" name="verifying_HomePageTitle" finished-at="2022-10-27T15:29:12 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="homeLoan1()[pri:0, instance:Demo.loan.homeLoan@740cae06]" started-at="2022-10-21T16:21:06 IST" name="homeLoan1" finished-at="2022-10-21T16:21:06 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homeLoan1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.loan.homeLoan@740cae06]" started-at="2022-10-21T16:21:06 IST" name="tearDown" finished-at="2022-10-21T16:21:10 IST" duration-ms="3733" status="PASS">
+        </test-method> <!-- verifying_HomePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPages.homePageTest@5a56cdac]" started-at="2022-10-27T15:29:12 IST" name="tearDown" finished-at="2022-10-27T15:29:12 IST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Demo.loan.homeLoan -->
-    </test> <!-- Home Loan -->
-  </suite> <!-- test_suite -->
+      </class> <!-- testPages.homePageTest -->
+    </test> <!-- anything -->
+  </suite> <!-- ANYTHING -->
 </testng-results>

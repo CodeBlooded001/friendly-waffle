@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+<suite name="CAN BE ANYTHING">
+<test name="can be anything">
+<classes>
+<class name="testPages.homePageTest"></class>
+</classes>
+</test>
+</suite>
