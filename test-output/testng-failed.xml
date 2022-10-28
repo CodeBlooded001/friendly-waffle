@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [ANYTHING]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="anything(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testPages.homePageTest">
+      <class name="testPages.ParameterizationPageTest">
         <methods>
-          <include name="verifying_HomePageTitle"/>
-          <include name="browserLaunch"/>
+          <include name="UserName"/>
+          <include name="launchingBrowser"/>
           <include name="tearDown"/>
-          <include name="verifyDisplay"/>
         </methods>
-      </class> <!-- testPages.homePageTest -->
+      </class> <!-- testPages.ParameterizationPageTest -->
     </classes>
-  </test> <!-- anything(failed) -->
-</suite> <!-- Failed suite [ANYTHING] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
