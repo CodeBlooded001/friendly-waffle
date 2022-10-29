@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testPages.ParameterizationPageTest">
+      <class name="Demo.groupingPageTest">
         <methods>
-          <include name="UserName"/>
-          <include name="launchingBrowser"/>
+          <include name="homePageTest"/>
           <include name="tearDown"/>
+          <include name="dependOnGroupTest1"/>
+          <include name="transactionsPageTest"/>
+          <include name="launchingBrowser"/>
         </methods>
-      </class> <!-- testPages.ParameterizationPageTest -->
+      </class> <!-- Demo.groupingPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

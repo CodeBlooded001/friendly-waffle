@@ -22,22 +22,27 @@ public class homePageTest extends TestBase {
 	 */
 	@BeforeMethod
 	public void browserLaunch() throws IOException {
+		System.out.println("Before Method");
 		//calling method from your TestBase
 		initialization();
 		hp = new homePage(driver);
+	
 	}
     @Test
     public void verifying_HomePageTitle() {
+    	System.out.println("Home Page Tile - First Test");
     	String title = hp.ValidatingTitle();
     	Assert.assertEquals(title,"omayo (QAFox.com)");
     }
     @Test
     public void verifyDisplay() {
+    	System.out.println("Verify Display - Second Test");
     	boolean Displaying_Text = hp.verifyDisplay();
     	Assert.assertTrue(Displaying_Text);
     }
     @AfterMethod
     public void tearDown() {
+    	System.out.println("After Method");
     	driver.quit();
     }
 }
