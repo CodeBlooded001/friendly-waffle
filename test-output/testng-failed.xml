@@ -3,16 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Demo.dependsOnMethodTestAnnoPageTest">
+      <class name="Demo.exceptionsPageTest">
         <methods>
-          <include name="m2"/>
           <include name="tearDown"/>
-          <include name="m1"/>
-          <include name="m4"/>
+          <include name="exceptionTestTwo"/>
           <include name="launchingBrowser"/>
-          <include name="m3"/>
         </methods>
-      </class> <!-- Demo.dependsOnMethodTestAnnoPageTest -->
+      </class> <!-- Demo.exceptionsPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
