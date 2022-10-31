@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-29T14:58:32 IST" name="Default suite" finished-at="2022-10-29T14:58:48 IST" duration-ms="16448">
+  <suite started-at="2022-10-31T10:33:01 IST" name="Default suite" finished-at="2022-10-31T10:33:28 IST" duration-ms="27609">
     <groups>
       <group name="transactionsPage">
         <method signature="groupingPageTest.dependOnGroupTest1()[pri:0, instance:Demo.groupingPageTest@57cf54e1]" name="dependOnGroupTest1" class="Demo.groupingPageTest"/>
@@ -13,44 +13,44 @@
         <method signature="groupingPageTest.homePageTest()[pri:0, instance:Demo.groupingPageTest@57cf54e1]" name="homePageTest" class="Demo.groupingPageTest"/>
       </group> <!-- homePage -->
     </groups>
-    <test started-at="2022-10-29T14:58:32 IST" name="Default test" finished-at="2022-10-29T14:58:48 IST" duration-ms="16448">
+    <test started-at="2022-10-31T10:33:01 IST" name="Default test" finished-at="2022-10-31T10:33:28 IST" duration-ms="27609">
       <class name="Demo.groupingPageTest">
-        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:Demo.groupingPageTest@57cf54e1]" started-at="2022-10-29T14:58:32 IST" name="launchingBrowser" finished-at="2022-10-29T14:58:40 IST" duration-ms="7583" status="PASS">
+        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:Demo.groupingPageTest@57cf54e1]" started-at="2022-10-31T10:33:01 IST" name="launchingBrowser" finished-at="2022-10-31T10:33:17 IST" duration-ms="16111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingBrowser -->
-        <test-method signature="dependOnGroupTest1()[pri:0, instance:Demo.groupingPageTest@57cf54e1]" started-at="2022-10-29T14:58:40 IST" name="dependOnGroupTest1" finished-at="2022-10-29T14:58:40 IST" duration-ms="8" status="PASS">
+        <test-method signature="dependOnGroupTest1()[pri:0, instance:Demo.groupingPageTest@57cf54e1]" started-at="2022-10-31T10:33:17 IST" name="dependOnGroupTest1" finished-at="2022-10-31T10:33:17 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dependOnGroupTest1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.groupingPageTest@57cf54e1]" started-at="2022-10-29T14:58:40 IST" name="tearDown" finished-at="2022-10-29T14:58:40 IST" duration-ms="332" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.groupingPageTest@57cf54e1]" started-at="2022-10-31T10:33:17 IST" name="tearDown" finished-at="2022-10-31T10:33:18 IST" duration-ms="787" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:Demo.groupingPageTest@57cf54e1]" started-at="2022-10-29T14:58:40 IST" name="launchingBrowser" finished-at="2022-10-29T14:58:44 IST" duration-ms="3908" status="PASS">
+        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:Demo.groupingPageTest@57cf54e1]" started-at="2022-10-31T10:33:18 IST" name="launchingBrowser" finished-at="2022-10-31T10:33:23 IST" duration-ms="5658" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingBrowser -->
-        <test-method signature="homePageTest()[pri:0, instance:Demo.groupingPageTest@57cf54e1]" started-at="2022-10-29T14:58:44 IST" name="homePageTest" finished-at="2022-10-29T14:58:44 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.groupingPageTest@57cf54e1]" started-at="2022-10-31T10:33:23 IST" name="tearDown" finished-at="2022-10-31T10:33:24 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="homePageTest()[pri:0, instance:Demo.groupingPageTest@57cf54e1]" started-at="2022-10-31T10:33:23 IST" name="homePageTest" finished-at="2022-10-31T10:33:23 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.groupingPageTest@57cf54e1]" started-at="2022-10-29T14:58:44 IST" name="tearDown" finished-at="2022-10-29T14:58:44 IST" duration-ms="295" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:Demo.groupingPageTest@57cf54e1]" started-at="2022-10-29T14:58:44 IST" name="launchingBrowser" finished-at="2022-10-29T14:58:48 IST" duration-ms="3969" status="PASS">
+        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:Demo.groupingPageTest@57cf54e1]" started-at="2022-10-31T10:33:24 IST" name="launchingBrowser" finished-at="2022-10-31T10:33:28 IST" duration-ms="4193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingBrowser -->
-        <test-method signature="transactionsPageTest()[pri:0, instance:Demo.groupingPageTest@57cf54e1]" started-at="2022-10-29T14:58:48 IST" name="transactionsPageTest" finished-at="2022-10-29T14:58:48 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- transactionsPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.groupingPageTest@57cf54e1]" started-at="2022-10-29T14:58:48 IST" name="tearDown" finished-at="2022-10-29T14:58:48 IST" duration-ms="277" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.groupingPageTest@57cf54e1]" started-at="2022-10-31T10:33:28 IST" name="tearDown" finished-at="2022-10-31T10:33:28 IST" duration-ms="320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method signature="transactionsPageTest()[pri:0, instance:Demo.groupingPageTest@57cf54e1]" started-at="2022-10-31T10:33:28 IST" name="transactionsPageTest" finished-at="2022-10-31T10:33:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transactionsPageTest -->
       </class> <!-- Demo.groupingPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
