@@ -5,6 +5,7 @@
     <classes>
       <class name="Demo.dependsOnMethodTestAnnoPageTest">
         <methods>
+          <include name="m2"/>
           <include name="tearDown"/>
           <include name="m1"/>
           <include name="m4"/>

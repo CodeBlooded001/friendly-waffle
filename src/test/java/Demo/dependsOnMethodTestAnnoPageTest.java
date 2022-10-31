@@ -43,7 +43,7 @@ public class dependsOnMethodTestAnnoPageTest extends TestBase {
 	   will run after executing all those methods on which 
 	   this test method is dependent
 	*/
-	@Test(dependsOnMethods = {"m3","m1"})
+	@Test(dependsOnMethods = {"m3","m1"},description = "Depending on m1 and m3")
 	public void m4() {
 		System.out.println("Test Method four");
 	}
