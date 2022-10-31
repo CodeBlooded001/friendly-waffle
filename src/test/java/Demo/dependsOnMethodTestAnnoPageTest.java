@@ -21,7 +21,11 @@ public class dependsOnMethodTestAnnoPageTest extends TestBase {
 		initialization();
 		depPage = new dependsOnMethodTestAnnoPage(driver);
 	}
-	@Test
+	/*
+	  enable attribute is used to disable the execution of a 
+	  particular test or set of tests.
+	 */
+	@Test(enabled = false)
 	public void m1() {
 		System.out.println("Test Method One");
 	}
