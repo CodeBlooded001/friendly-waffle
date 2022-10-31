@@ -25,7 +25,7 @@ public class dependsOnMethodTestAnnoPageTest extends TestBase {
 	  enable attribute is used to disable the execution of a 
 	  particular test or set of tests.
 	 */
-	@Test(enabled = false)
+	@Test()
 	public void m1() {
 		System.out.println("Test Method One");
 	}
