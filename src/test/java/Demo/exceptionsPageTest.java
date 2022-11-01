@@ -28,6 +28,12 @@ public class exceptionsPageTest extends TestBase {
 	public void exceptionTestOne() throws IOException {
 		throw new IOException();
 	}
+	/*If the exception thrown by a test method does not 
+	  match with the exception list entered by user, 
+	  the test method will be marked as failed.
+	  
+	  TestNG also supports multiple expected exceptions 
+	  for verification while executing a particular test.*/
 	@Test(expectedExceptions = {IOException.class, 
 			ArithmeticException.class})
 	public void exceptionTestTwo() throws Exception {
