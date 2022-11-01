@@ -2,74 +2,25 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-31T16:58:58 IST" name="Default suite" finished-at="2022-10-31T16:59:06 IST" duration-ms="8496">
+  <suite started-at="2022-11-01T13:33:49 IST" name="Default suite" finished-at="2022-11-01T13:34:09 IST" duration-ms="19350">
     <groups>
     </groups>
-    <test started-at="2022-10-31T16:58:58 IST" name="Default test" finished-at="2022-10-31T16:59:06 IST" duration-ms="8496">
-      <class name="Demo.exceptionsPageTest">
-        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:Demo.exceptionsPageTest@7c711375]" started-at="2022-10-31T16:58:58 IST" name="launchingBrowser" finished-at="2022-10-31T16:59:03 IST" duration-ms="5033" status="PASS">
+    <test started-at="2022-11-01T13:33:49 IST" name="Default test" finished-at="2022-11-01T13:34:09 IST" duration-ms="19350">
+      <class name="Demo.timeOutMethodLevelPageTest">
+        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:Demo.timeOutMethodLevelPageTest@7c711375]" started-at="2022-11-01T13:33:49 IST" name="launchingBrowser" finished-at="2022-11-01T13:34:02 IST" duration-ms="12973" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingBrowser -->
-        <test-method signature="exceptionTestOne()[pri:0, instance:Demo.exceptionsPageTest@7c711375]" started-at="2022-10-31T16:59:03 IST" name="exceptionTestOne" finished-at="2022-10-31T16:59:03 IST" duration-ms="5" status="PASS">
-          <exception class="java.io.IOException">
-            <full-stacktrace>
-              <![CDATA[java.io.IOException
-at Demo.exceptionsPageTest.exceptionTestOne(exceptionsPageTest.java:25)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.io.IOException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exceptionTestOne -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.exceptionsPageTest@7c711375]" started-at="2022-10-31T16:59:03 IST" name="tearDown" finished-at="2022-10-31T16:59:03 IST" duration-ms="199" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:Demo.exceptionsPageTest@7c711375]" started-at="2022-10-31T16:59:03 IST" name="launchingBrowser" finished-at="2022-10-31T16:59:06 IST" duration-ms="3093" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchingBrowser -->
-        <test-method signature="exceptionTestTwo()[pri:0, instance:Demo.exceptionsPageTest@7c711375]" started-at="2022-10-31T16:59:06 IST" name="exceptionTestTwo" finished-at="2022-10-31T16:59:06 IST" duration-ms="1" status="FAIL">
-          <exception class="org.testng.TestException">
+        <test-method signature="m1()[pri:0, instance:Demo.timeOutMethodLevelPageTest@7c711375]" started-at="2022-11-01T13:34:02 IST" name="m1" finished-at="2022-11-01T13:34:03 IST" duration-ms="521" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
             <message>
-              <![CDATA[
-Expected exception of any of types [class java.io.IOException, class java.lang.ArithmeticException] but got java.lang.Exception]]>
+              <![CDATA[Method Demo.timeOutMethodLevelPageTest.m1() didn't finish within the time-out 500]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.TestException: 
-Expected exception of any of types [class java.io.IOException, class java.lang.ArithmeticException] but got java.lang.Exception
-at org.testng.internal.ExpectedExceptionsHolder.wrongException(ExpectedExceptionsHolder.java:68)
-at org.testng.internal.TestInvoker.considerExceptions(TestInvoker.java:739)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:634)
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method Demo.timeOutMethodLevelPageTest.m1() didn't finish within the time-out 500
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
@@ -92,26 +43,29 @@ at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.Exception
-at Demo.exceptionsPageTest.exceptionTestTwo(exceptionsPageTest.java:30)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-... 22 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.TestException -->
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- exceptionTestTwo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.exceptionsPageTest@7c711375]" started-at="2022-10-31T16:59:06 IST" name="tearDown" finished-at="2022-10-31T16:59:06 IST" duration-ms="117" status="PASS">
+        </test-method> <!-- m1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.timeOutMethodLevelPageTest@7c711375]" started-at="2022-11-01T13:34:03 IST" name="tearDown" finished-at="2022-11-01T13:34:03 IST" duration-ms="420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Demo.exceptionsPageTest -->
+        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:Demo.timeOutMethodLevelPageTest@7c711375]" started-at="2022-11-01T13:34:03 IST" name="launchingBrowser" finished-at="2022-11-01T13:34:08 IST" duration-ms="4719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingBrowser -->
+        <test-method signature="m2()[pri:0, instance:Demo.timeOutMethodLevelPageTest@7c711375]" started-at="2022-11-01T13:34:08 IST" name="m2" finished-at="2022-11-01T13:34:09 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.timeOutMethodLevelPageTest@7c711375]" started-at="2022-11-01T13:34:09 IST" name="tearDown" finished-at="2022-11-01T13:34:09 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Demo.timeOutMethodLevelPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

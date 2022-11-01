@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Demo.exceptionsPageTest">
+      <class name="Demo.timeOutMethodLevelPageTest">
         <methods>
           <include name="tearDown"/>
-          <include name="exceptionTestTwo"/>
           <include name="launchingBrowser"/>
+          <include name="m1"/>
         </methods>
-      </class> <!-- Demo.exceptionsPageTest -->
+      </class> <!-- Demo.timeOutMethodLevelPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
