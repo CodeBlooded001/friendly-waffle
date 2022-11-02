@@ -1,71 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-01T13:33:49 IST" name="Default suite" finished-at="2022-11-01T13:34:09 IST" duration-ms="19350">
+  <suite started-at="2022-11-02T11:41:11 IST" name="Default suite" finished-at="2022-11-02T11:41:24 IST" duration-ms="13694">
     <groups>
+      <group name="Car">
+        <method signature="groupingTestMethodsTest.Bajaj()[pri:0, instance:MetaGroupsDemo.groupingTestMethodsTest@57cf54e1]" name="Bajaj" class="MetaGroupsDemo.groupingTestMethodsTest"/>
+        <method signature="groupingTestMethodsTest.mahindar()[pri:0, instance:MetaGroupsDemo.groupingTestMethodsTest@57cf54e1]" name="mahindar" class="MetaGroupsDemo.groupingTestMethodsTest"/>
+      </group> <!-- Car -->
     </groups>
-    <test started-at="2022-11-01T13:33:49 IST" name="Default test" finished-at="2022-11-01T13:34:09 IST" duration-ms="19350">
-      <class name="Demo.timeOutMethodLevelPageTest">
-        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:Demo.timeOutMethodLevelPageTest@7c711375]" started-at="2022-11-01T13:33:49 IST" name="launchingBrowser" finished-at="2022-11-01T13:34:02 IST" duration-ms="12973" status="PASS">
+    <test started-at="2022-11-02T11:41:11 IST" name="Default test" finished-at="2022-11-02T11:41:24 IST" duration-ms="13694">
+      <class name="MetaGroupsDemo.groupingTestMethodsTest">
+        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:MetaGroupsDemo.groupingTestMethodsTest@57cf54e1]" started-at="2022-11-02T11:41:11 IST" name="launchingBrowser" finished-at="2022-11-02T11:41:16 IST" duration-ms="5527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingBrowser -->
-        <test-method signature="m1()[pri:0, instance:Demo.timeOutMethodLevelPageTest@7c711375]" started-at="2022-11-01T13:34:02 IST" name="m1" finished-at="2022-11-01T13:34:03 IST" duration-ms="521" status="FAIL">
-          <exception class="org.testng.internal.thread.ThreadTimeoutException">
-            <message>
-              <![CDATA[Method Demo.timeOutMethodLevelPageTest.m1() didn't finish within the time-out 500]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method Demo.timeOutMethodLevelPageTest.m1() didn't finish within the time-out 500
-at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
-at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+        <test-method signature="Bajaj()[pri:0, instance:MetaGroupsDemo.groupingTestMethodsTest@57cf54e1]" started-at="2022-11-02T11:41:16 IST" name="Bajaj" finished-at="2022-11-02T11:41:16 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.timeOutMethodLevelPageTest@7c711375]" started-at="2022-11-01T13:34:03 IST" name="tearDown" finished-at="2022-11-01T13:34:03 IST" duration-ms="420" status="PASS">
+        </test-method> <!-- Bajaj -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MetaGroupsDemo.groupingTestMethodsTest@57cf54e1]" started-at="2022-11-02T11:41:16 IST" name="tearDown" finished-at="2022-11-02T11:41:17 IST" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:Demo.timeOutMethodLevelPageTest@7c711375]" started-at="2022-11-01T13:34:03 IST" name="launchingBrowser" finished-at="2022-11-01T13:34:08 IST" duration-ms="4719" status="PASS">
+        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:MetaGroupsDemo.groupingTestMethodsTest@57cf54e1]" started-at="2022-11-02T11:41:17 IST" name="launchingBrowser" finished-at="2022-11-02T11:41:20 IST" duration-ms="3306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingBrowser -->
-        <test-method signature="m2()[pri:0, instance:Demo.timeOutMethodLevelPageTest@7c711375]" started-at="2022-11-01T13:34:08 IST" name="m2" finished-at="2022-11-01T13:34:09 IST" duration-ms="409" status="PASS">
+        <test-method signature="mahindar()[pri:0, instance:MetaGroupsDemo.groupingTestMethodsTest@57cf54e1]" started-at="2022-11-02T11:41:20 IST" name="mahindar" finished-at="2022-11-02T11:41:20 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.timeOutMethodLevelPageTest@7c711375]" started-at="2022-11-01T13:34:09 IST" name="tearDown" finished-at="2022-11-01T13:34:09 IST" duration-ms="245" status="PASS">
+        </test-method> <!-- mahindar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MetaGroupsDemo.groupingTestMethodsTest@57cf54e1]" started-at="2022-11-02T11:41:20 IST" name="tearDown" finished-at="2022-11-02T11:41:20 IST" duration-ms="119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Demo.timeOutMethodLevelPageTest -->
+        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:MetaGroupsDemo.groupingTestMethodsTest@57cf54e1]" started-at="2022-11-02T11:41:20 IST" name="launchingBrowser" finished-at="2022-11-02T11:41:24 IST" duration-ms="4345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingBrowser -->
+        <test-method signature="sedan()[pri:0, instance:MetaGroupsDemo.groupingTestMethodsTest@57cf54e1]" started-at="2022-11-02T11:41:24 IST" name="sedan" finished-at="2022-11-02T11:41:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sedan -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MetaGroupsDemo.groupingTestMethodsTest@57cf54e1]" started-at="2022-11-02T11:41:24 IST" name="tearDown" finished-at="2022-11-02T11:41:24 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MetaGroupsDemo.groupingTestMethodsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
