@@ -13,10 +13,10 @@ public class homePage extends TestBase {
 	//Page Objects or Object Repositories 
 	
 	@FindBy(xpath="//h1[@class='title']")
-	WebElement textDisplay;
+	private WebElement textDisplay;
 	
 	@FindBy(xpath="//a[@id='selenium143']")
-	WebElement linkToPage;
+	private WebElement linkToPage;
 	
 	//Constructor
 	public homePage(WebDriver driver) throws IOException {
