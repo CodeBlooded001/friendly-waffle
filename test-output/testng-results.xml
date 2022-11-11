@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-02T16:48:10 IST" name="Default suite" finished-at="2022-11-02T16:48:19 IST" duration-ms="9423">
+  <suite started-at="2022-11-09T13:26:00 IST" name="Anything" finished-at="2022-11-09T13:26:33 IST" duration-ms="32781">
     <groups>
     </groups>
-    <test started-at="2022-11-02T16:48:10 IST" name="Default test" finished-at="2022-11-02T16:48:19 IST" duration-ms="9423">
+    <test started-at="2022-11-09T13:26:00 IST" name="any test name" finished-at="2022-11-09T13:26:33 IST" duration-ms="32781">
       <class name="testPages.homePageTest">
-        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:testPages.homePageTest@5b03b9fe]" started-at="2022-11-02T16:48:10 IST" name="browserLaunch" finished-at="2022-11-02T16:48:15 IST" duration-ms="5440" status="PASS">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:testPages.homePageTest@57cf54e1]" started-at="2022-11-09T13:26:00 IST" name="browserLaunch" finished-at="2022-11-09T13:26:14 IST" duration-ms="13686" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="verifyDisplay()[pri:0, instance:testPages.homePageTest@5b03b9fe]" started-at="2022-11-02T16:48:15 IST" name="verifyDisplay" finished-at="2022-11-02T16:48:15 IST" duration-ms="53" status="PASS">
+        <test-method signature="verifyDisplay()[pri:0, instance:testPages.homePageTest@57cf54e1]" started-at="2022-11-09T13:26:14 IST" name="verifyDisplay" finished-at="2022-11-09T13:26:14 IST" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDisplay -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPages.homePageTest@5b03b9fe]" started-at="2022-11-02T16:48:15 IST" name="tearDown" finished-at="2022-11-02T16:48:16 IST" duration-ms="230" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPages.homePageTest@57cf54e1]" started-at="2022-11-09T13:26:14 IST" name="tearDown" finished-at="2022-11-09T13:26:17 IST" duration-ms="3689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:testPages.homePageTest@5b03b9fe]" started-at="2022-11-02T16:48:16 IST" name="browserLaunch" finished-at="2022-11-02T16:48:19 IST" duration-ms="3474" status="PASS">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:testPages.homePageTest@57cf54e1]" started-at="2022-11-09T13:26:17 IST" name="browserLaunch" finished-at="2022-11-09T13:26:29 IST" duration-ms="11285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="verifying_HomePageTitle()[pri:0, instance:testPages.homePageTest@5b03b9fe]" started-at="2022-11-02T16:48:19 IST" name="verifying_HomePageTitle" finished-at="2022-11-02T16:48:19 IST" duration-ms="10" status="PASS">
+        <test-method signature="verifying_HomePageTitle()[pri:0, instance:testPages.homePageTest@57cf54e1]" started-at="2022-11-09T13:26:29 IST" name="verifying_HomePageTitle" finished-at="2022-11-09T13:26:29 IST" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifying_HomePageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPages.homePageTest@5b03b9fe]" started-at="2022-11-02T16:48:19 IST" name="tearDown" finished-at="2022-11-02T16:48:19 IST" duration-ms="172" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPages.homePageTest@57cf54e1]" started-at="2022-11-09T13:26:29 IST" name="tearDown" finished-at="2022-11-09T13:26:33 IST" duration-ms="3796" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testPages.homePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- any test name -->
+  </suite> <!-- Anything -->
 </testng-results>
