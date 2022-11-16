@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-09T13:26:00 IST" name="Anything" finished-at="2022-11-09T13:26:33 IST" duration-ms="32781">
+  <suite started-at="2022-11-16T13:51:18 IST" name="Default suite" finished-at="2022-11-16T13:51:34 IST" duration-ms="15821">
     <groups>
     </groups>
-    <test started-at="2022-11-09T13:26:00 IST" name="any test name" finished-at="2022-11-09T13:26:33 IST" duration-ms="32781">
-      <class name="testPages.homePageTest">
-        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:testPages.homePageTest@57cf54e1]" started-at="2022-11-09T13:26:00 IST" name="browserLaunch" finished-at="2022-11-09T13:26:14 IST" duration-ms="13686" status="PASS">
+    <test started-at="2022-11-16T13:51:18 IST" name="Default test" finished-at="2022-11-16T13:51:34 IST" duration-ms="15821">
+      <class name="apachePOIDemoTestPage.ApachePOITest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:apachePOIDemoTestPage.ApachePOITest@3e11f9e9]" started-at="2022-11-16T13:51:18 IST" name="setUp" finished-at="2022-11-16T13:51:30 IST" duration-ms="12375" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserLaunch -->
-        <test-method signature="verifyDisplay()[pri:0, instance:testPages.homePageTest@57cf54e1]" started-at="2022-11-09T13:26:14 IST" name="verifyDisplay" finished-at="2022-11-09T13:26:14 IST" duration-ms="172" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="printAddress()[pri:0, instance:apachePOIDemoTestPage.ApachePOITest@3e11f9e9]" started-at="2022-11-16T13:51:30 IST" name="printAddress" finished-at="2022-11-16T13:51:30 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyDisplay -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPages.homePageTest@57cf54e1]" started-at="2022-11-09T13:26:14 IST" name="tearDown" finished-at="2022-11-09T13:26:17 IST" duration-ms="3689" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:testPages.homePageTest@57cf54e1]" started-at="2022-11-09T13:26:17 IST" name="browserLaunch" finished-at="2022-11-09T13:26:29 IST" duration-ms="11285" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserLaunch -->
-        <test-method signature="verifying_HomePageTitle()[pri:0, instance:testPages.homePageTest@57cf54e1]" started-at="2022-11-09T13:26:29 IST" name="verifying_HomePageTitle" finished-at="2022-11-09T13:26:29 IST" duration-ms="31" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifying_HomePageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPages.homePageTest@57cf54e1]" started-at="2022-11-09T13:26:29 IST" name="tearDown" finished-at="2022-11-09T13:26:33 IST" duration-ms="3796" status="PASS">
+        </test-method> <!-- printAddress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:apachePOIDemoTestPage.ApachePOITest@3e11f9e9]" started-at="2022-11-16T13:51:30 IST" name="tearDown" finished-at="2022-11-16T13:51:34 IST" duration-ms="3367" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testPages.homePageTest -->
-    </test> <!-- any test name -->
-  </suite> <!-- Anything -->
+      </class> <!-- apachePOIDemoTestPage.ApachePOITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

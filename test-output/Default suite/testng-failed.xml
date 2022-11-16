@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Demo.timeOutMethodLevelPageTest">
+      <class name="apachePOIDemoTestPage.ApachePOITest">
         <methods>
+          <include name="setUp"/>
+          <include name="printAddress"/>
           <include name="tearDown"/>
-          <include name="launchingBrowser"/>
-          <include name="m1"/>
         </methods>
-      </class> <!-- Demo.timeOutMethodLevelPageTest -->
+      </class> <!-- apachePOIDemoTestPage.ApachePOITest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
