@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="apachePOIDemoTestPage.ApachePOIReadFullDataTest">
+      <class name="apachePOIDemoTestPage.loginPage">
         <methods>
+          <include name="m1"/>
           <include name="setUp"/>
-          <include name="justPrint"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- apachePOIDemoTestPage.ApachePOIReadFullDataTest -->
+      </class> <!-- apachePOIDemoTestPage.loginPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

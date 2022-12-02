@@ -2,22 +2,42 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-16T18:34:52 IST" name="Default suite" finished-at="2022-11-16T18:35:05 IST" duration-ms="13424">
+  <suite started-at="2022-11-18T17:37:15 IST" name="Default suite" finished-at="2022-11-18T17:37:18 IST" duration-ms="3721">
     <groups>
     </groups>
-    <test started-at="2022-11-16T18:34:52 IST" name="Default test" finished-at="2022-11-16T18:35:05 IST" duration-ms="13424">
-      <class name="apachePOIDemoTestPage.ApachePOIReadFullDataTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:apachePOIDemoTestPage.ApachePOIReadFullDataTest@3e11f9e9]" started-at="2022-11-16T18:34:52 IST" name="setUp" finished-at="2022-11-16T18:35:05 IST" duration-ms="13338" status="FAIL">
-          <exception class="java.lang.IllegalStateException">
+    <test started-at="2022-11-18T17:37:15 IST" name="Default test" finished-at="2022-11-18T17:37:18 IST" duration-ms="3721">
+      <class name="apachePOIDemoTestPage.loginPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:apachePOIDemoTestPage.loginPage@3e11f9e9]" started-at="2022-11-18T17:37:15 IST" name="setUp" finished-at="2022-11-18T17:37:18 IST" duration-ms="3610" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Cannot get a STRING value from a NUMERIC cell]]>
+              <![CDATA[Could not start a new session. Response code 500. Message: Failed to start browser C:\Program Files\Firefox Developer Edition\firefox.exe: The process cannot access the file because it is being used by another process. (os error 32) 
+Host info: host: 'LAPTOP-IK8VGAHU', ip: '192.168.1.52'
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
-at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:987)
-at org.apache.poi.xssf.usermodel.XSSFCell.getRichStringCellValue(XSSFCell.java:336)
-at org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue(XSSFCell.java:280)
-at apachePOIDemoTestPage.ApachePOIReadFullDataTest.setUp(ApachePOIReadFullDataTest.java:44)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to start browser C:\Program Files\Firefox Developer Edition\firefox.exe: The process cannot access the file because it is being used by another process. (os error 32) 
+Host info: host: 'LAPTOP-IK8VGAHU', ip: '192.168.1.52'
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:144)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:242)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:110)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:94)
+at base.TestBase.initialization(TestBase.java:62)
+at apachePOIDemoTestPage.loginPage.setUp(loginPage.java:20)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -52,21 +72,41 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="justPrint()[pri:0, instance:apachePOIDemoTestPage.ApachePOIReadFullDataTest@3e11f9e9]" started-at="2022-11-16T18:35:05 IST" name="justPrint" finished-at="2022-11-16T18:35:05 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.IllegalStateException">
+        <test-method signature="m1()[pri:0, instance:apachePOIDemoTestPage.loginPage@3e11f9e9]" started-at="2022-11-18T17:37:18 IST" name="m1" finished-at="2022-11-18T17:37:18 IST" duration-ms="1" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Cannot get a STRING value from a NUMERIC cell]]>
+              <![CDATA[Could not start a new session. Response code 500. Message: Failed to start browser C:\Program Files\Firefox Developer Edition\firefox.exe: The process cannot access the file because it is being used by another process. (os error 32) 
+Host info: host: 'LAPTOP-IK8VGAHU', ip: '192.168.1.52'
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
-at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:987)
-at org.apache.poi.xssf.usermodel.XSSFCell.getRichStringCellValue(XSSFCell.java:336)
-at org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue(XSSFCell.java:280)
-at apachePOIDemoTestPage.ApachePOIReadFullDataTest.setUp(ApachePOIReadFullDataTest.java:44)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to start browser C:\Program Files\Firefox Developer Edition\firefox.exe: The process cannot access the file because it is being used by another process. (os error 32) 
+Host info: host: 'LAPTOP-IK8VGAHU', ip: '192.168.1.52'
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:144)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:242)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:110)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:94)
+at base.TestBase.initialization(TestBase.java:62)
+at apachePOIDemoTestPage.loginPage.setUp(loginPage.java:20)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -101,15 +141,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- justPrint -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:apachePOIDemoTestPage.ApachePOIReadFullDataTest@3e11f9e9]" started-at="2022-11-16T18:35:05 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668603905472" status="SKIP">
+        </test-method> <!-- m1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:apachePOIDemoTestPage.loginPage@3e11f9e9]" started-at="2022-11-18T17:37:18 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668773238833" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- apachePOIDemoTestPage.ApachePOIReadFullDataTest -->
+      </class> <!-- apachePOIDemoTestPage.loginPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
